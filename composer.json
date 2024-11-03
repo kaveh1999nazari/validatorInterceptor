@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Kaveh\\ValidatorInterceptor\\": "src/"
+            "App\\src\\": "app/src"
         }
     },
     "authors": [
@@ -14,7 +14,8 @@
             "email": "kaveh1999nazari@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "^8.0"
     },

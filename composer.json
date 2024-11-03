@@ -1,8 +1,8 @@
 {
     "name": "kaveh/validator-interceptor",
     "description": "can validate the request",
-    "type": "library",
-    "license": "MIT",
+    "homepage": "https://github.com/kaveh1999nazari/validatorInterceptor",
+    "license": "BSD-3-Clause",
     "autoload": {
         "psr-4": {
             "App\\src\\": "app/src"
@@ -14,14 +14,9 @@
             "email": "kaveh1999nazari@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/kaveh1999nazari/validatorInterceptor"
-        }
-    ],
+    "require": {
+        "php": "^8.0"
+    },
     "require-dev": {
         "spiral/testing": "^2.3",
         "spiral/dumper": "^3.2.1",

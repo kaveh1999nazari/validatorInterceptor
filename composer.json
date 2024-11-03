@@ -1,0 +1,18 @@
+{
+    "name": "kaveh/validator-interceptor",
+    "description": "can validate the request",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kaveh\\ValidatorInterceptor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kaveh1999nazari",
+            "email": "kaveh1999nazari@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

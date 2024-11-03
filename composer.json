@@ -30,5 +30,12 @@
         "spiral/testing": "^2.3",
         "spiral/dumper": "^3.2.1",
         "phpunit/phpunit": "^10.0"
+    },
+    "extra": {
+    "spiral": {
+        "bootloaders": [
+            "App\\src\\Bootloader\\ValidatorInterceptorBootloader"
+        ]
     }
+}
 }

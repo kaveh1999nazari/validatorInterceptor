@@ -3,7 +3,7 @@
         'name' => 'kaveh/validator-interceptor',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'aab70ad9a96069c8cca9f0bfe12bce8aca4645b1',
+        'reference' => '7b782cd8843dd297558c0177c21e171a8e7fe780',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -88,7 +88,7 @@
         'kaveh/validator-interceptor' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'aab70ad9a96069c8cca9f0bfe12bce8aca4645b1',
+            'reference' => '7b782cd8843dd297558c0177c21e171a8e7fe780',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

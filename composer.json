@@ -16,9 +16,12 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {
-        "php": "^8.0"
-    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kaveh1999nazari/validatorInterceptor"
+        }
+    ],
     "require-dev": {
         "spiral/testing": "^2.3",
         "spiral/dumper": "^3.2.1",

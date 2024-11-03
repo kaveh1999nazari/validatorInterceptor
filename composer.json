@@ -2,7 +2,7 @@
     "name": "kaveh/validator-interceptor",
     "description": "can validate the request",
     "type": "library",
-    "license": "KAVEH",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Kaveh\\ValidatorInterceptor\\": "src/"

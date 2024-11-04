@@ -4,32 +4,693 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit04ee5e35bddbd768479a8a7538e1c35e
+class ComposerStaticInit85da183e2d50176ae217fe5a139f1c54
 {
+    public static $files = array (
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
+        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
+        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
+        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
+        'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
+        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        'ee3f63fba4aee765c47ba535aa9e0804' => __DIR__ . '/..' . '/spiral/attributes/src/polyfill.php',
+        'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
+        '07d7f1a47144818725fd8d91a907ac57' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/create_uploaded_file.php',
+        'da94ac5d3ca7d2dbab84ce561ce72bfd' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/marshal_headers_from_sapi.php',
+        '3d97c8dcdfba8cb85d3b34f116bb248b' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/marshal_method_from_sapi.php',
+        'e6f3bc6883e449ab367280b34158c05b' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/marshal_protocol_version_from_sapi.php',
+        'd59fbae42019aedf227094ac49a46f50' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/marshal_uri_from_sapi.php',
+        'de95e0ac670b27c84ef8c5ac41fc1b34' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/normalize_server.php',
+        'b6c2870932b0250c10334a86dcb33c7f' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/normalize_uploaded_files.php',
+        'd02cf21124526632320d6f20b1bbf905' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/parse_cookie_header.php',
+        'd919fc9d5ad52cfb7f322f7fe36458ab' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/create_uploaded_file.legacy.php',
+        'e397f74f8af3b1e56166a6e99f216ee7' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/marshal_headers_from_sapi.legacy.php',
+        'd154b49fab8e4da34fb553a2d644918c' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/marshal_method_from_sapi.legacy.php',
+        '9d3db23ca418094bcf0b641a0c9559ed' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/marshal_protocol_version_from_sapi.legacy.php',
+        'b0b88a3b89caae681462c58ff19a7059' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/marshal_uri_from_sapi.legacy.php',
+        'cc8e14526dc240491e17a838cb78508c' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/normalize_server.legacy.php',
+        '786bf90caabc9e09b6ad4cc5ca8f0e30' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/normalize_uploaded_files.legacy.php',
+        '751a5a3f463e4be759be31748b61737c' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/parse_cookie_header.legacy.php',
+        'cbfbf9c3f27af043a3a9ca7b3924f423' => __DIR__ . '/..' . '/spiral/framework/src/Boot/src/helpers.php',
+        'c2e18bf36247490543e3e208b2e7fd46' => __DIR__ . '/..' . '/spiral/framework/src/Framework/helpers.php',
+        '22ac011754b6808e1c825f553ba8422f' => __DIR__ . '/..' . '/spiral/framework/src/Scaffolder/src/helpers.php',
+        '5593852dde92f26503ce17f2bbc7640e' => __DIR__ . '/..' . '/spiral/framework/src/Stempler/src/helpers.php',
+        '10b4eb2aeceaed9f2173ba8fc3220f0f' => __DIR__ . '/..' . '/spiral/framework/src/Translator/src/helpers.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
-        'A' => 
+        'S' => 
         array (
-            'App\\src\\' => 8,
+            'Symfony\\Polyfill\\Php80\\' => 23,
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Polyfill\\Intl\\Normalizer\\' => 33,
+            'Symfony\\Polyfill\\Intl\\Idn\\' => 26,
+            'Symfony\\Polyfill\\Intl\\Grapheme\\' => 31,
+            'Symfony\\Polyfill\\Ctype\\' => 23,
+            'Symfony\\Contracts\\Translation\\' => 30,
+            'Symfony\\Contracts\\Service\\' => 26,
+            'Symfony\\Contracts\\EventDispatcher\\' => 34,
+            'Symfony\\Component\\Translation\\' => 30,
+            'Symfony\\Component\\String\\' => 25,
+            'Symfony\\Component\\Mime\\' => 23,
+            'Symfony\\Component\\Mailer\\' => 25,
+            'Symfony\\Component\\Finder\\' => 25,
+            'Symfony\\Component\\EventDispatcher\\' => 34,
+            'Symfony\\Component\\Console\\' => 26,
+            'Spiral\\Views\\' => 13,
+            'Spiral\\Validator\\' => 17,
+            'Spiral\\Validation\\' => 18,
+            'Spiral\\Translator\\' => 18,
+            'Spiral\\Tokenizer\\' => 17,
+            'Spiral\\Telemetry\\' => 17,
+            'Spiral\\Streams\\' => 15,
+            'Spiral\\Storage\\' => 15,
+            'Spiral\\Stempler\\' => 16,
+            'Spiral\\Snapshots\\' => 17,
+            'Spiral\\Session\\' => 15,
+            'Spiral\\Serializer\\' => 18,
+            'Spiral\\SendIt\\' => 14,
+            'Spiral\\Security\\' => 16,
+            'Spiral\\Scaffolder\\' => 18,
+            'Spiral\\Router\\' => 14,
+            'Spiral\\RoadRunner\\GRPC\\' => 23,
+            'Spiral\\RoadRunner\\' => 18,
+            'Spiral\\Reactor\\' => 15,
+            'Spiral\\Queue\\' => 13,
+            'Spiral\\Prototype\\' => 17,
+            'Spiral\\Pagination\\' => 18,
+            'Spiral\\Monolog\\' => 15,
+            'Spiral\\Models\\' => 14,
+            'Spiral\\Mailer\\' => 14,
+            'Spiral\\Logger\\' => 14,
+            'Spiral\\Interceptors\\' => 20,
+            'Spiral\\Http\\' => 12,
+            'Spiral\\Goridge\\' => 15,
+            'Spiral\\Filters\\' => 15,
+            'Spiral\\Files\\' => 13,
+            'Spiral\\Exceptions\\' => 18,
+            'Spiral\\Events\\' => 14,
+            'Spiral\\Encrypter\\' => 17,
+            'Spiral\\DotEnv\\' => 14,
+            'Spiral\\Distribution\\' => 20,
+            'Spiral\\Debug\\' => 13,
+            'Spiral\\Csrf\\' => 12,
+            'Spiral\\Core\\' => 12,
+            'Spiral\\Cookies\\' => 15,
+            'Spiral\\Console\\' => 15,
+            'Spiral\\Config\\' => 14,
+            'Spiral\\Composer\\' => 16,
+            'Spiral\\Cache\\' => 13,
+            'Spiral\\Broadcasting\\' => 20,
+            'Spiral\\Boot\\' => 12,
+            'Spiral\\Auth\\' => 12,
+            'Spiral\\Attributes\\' => 18,
+            'Spiral\\' => 7,
+        ),
+        'P' => 
+        array (
+            'Psr\\SimpleCache\\' => 16,
+            'Psr\\Log\\' => 8,
+            'Psr\\Http\\Server\\' => 16,
+            'Psr\\Http\\Message\\' => 17,
+            'Psr\\EventDispatcher\\' => 20,
+            'Psr\\Container\\' => 14,
+            'Psr\\Cache\\' => 10,
+            'PhpParser\\' => 10,
+            'PhpOption\\' => 10,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
+        ),
+        'L' => 
+        array (
+            'League\\MimeTypeDetection\\' => 25,
+            'League\\Flysystem\\Local\\' => 23,
+            'League\\Flysystem\\' => 17,
+            'Laminas\\Diactoros\\' => 18,
+        ),
+        'G' => 
+        array (
+            'GrahamCampbell\\ResultType\\' => 26,
+            'Google\\Type\\' => 12,
+            'Google\\Rpc\\' => 11,
+            'Google\\Protobuf\\' => 16,
+            'Google\\Iam\\' => 11,
+            'Google\\Cloud\\' => 13,
+            'Google\\Api\\' => 11,
+            'GPBMetadata\\Google\\Type\\' => 24,
+            'GPBMetadata\\Google\\Rpc\\' => 23,
+            'GPBMetadata\\Google\\Protobuf\\' => 28,
+            'GPBMetadata\\Google\\Logging\\' => 27,
+            'GPBMetadata\\Google\\Iam\\' => 23,
+            'GPBMetadata\\Google\\Cloud\\' => 25,
+            'GPBMetadata\\Google\\Api\\' => 23,
+        ),
+        'E' => 
+        array (
+            'Egulias\\EmailValidator\\' => 23,
+        ),
+        'D' => 
+        array (
+            'Dotenv\\' => 7,
+            'Doctrine\\Inflector\\' => 19,
+            'Doctrine\\Common\\Lexer\\' => 22,
+            'Defuse\\Crypto\\' => 14,
+            'DeepCopy\\' => 9,
+        ),
+        'C' => 
+        array (
+            'Codedungeon\\PHPCliColors\\' => 25,
+            'Cocur\\Slugify\\' => 14,
+        ),
+        'B' => 
+        array (
+            'Barsam\\ValidationSpiral\\' => 24,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'App\\src\\' => 
+        'Symfony\\Polyfill\\Php80\\' => 
         array (
-            0 => __DIR__ . '/..' . '/kaveh/validator-interceptor/app/src',
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
+        ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Symfony\\Polyfill\\Intl\\Normalizer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer',
+        ),
+        'Symfony\\Polyfill\\Intl\\Idn\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-intl-idn',
+        ),
+        'Symfony\\Polyfill\\Intl\\Grapheme\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme',
+        ),
+        'Symfony\\Polyfill\\Ctype\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
+        ),
+        'Symfony\\Contracts\\Translation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/translation-contracts',
+        ),
+        'Symfony\\Contracts\\Service\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/service-contracts',
+        ),
+        'Symfony\\Contracts\\EventDispatcher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/event-dispatcher-contracts',
+        ),
+        'Symfony\\Component\\Translation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/translation',
+        ),
+        'Symfony\\Component\\String\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/string',
+        ),
+        'Symfony\\Component\\Mime\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/mime',
+        ),
+        'Symfony\\Component\\Mailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/mailer',
+        ),
+        'Symfony\\Component\\Finder\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/finder',
+        ),
+        'Symfony\\Component\\EventDispatcher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
+        ),
+        'Symfony\\Component\\Console\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Spiral\\Views\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Views/src',
+        ),
+        'Spiral\\Validator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/validator/src',
+        ),
+        'Spiral\\Validation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Validation/src',
+        ),
+        'Spiral\\Translator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Translator/src',
+        ),
+        'Spiral\\Tokenizer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Tokenizer/src',
+        ),
+        'Spiral\\Telemetry\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Telemetry/src',
+        ),
+        'Spiral\\Streams\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Streams/src',
+        ),
+        'Spiral\\Storage\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Storage/src',
+        ),
+        'Spiral\\Stempler\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Bridge/Stempler/src',
+            1 => __DIR__ . '/..' . '/spiral/framework/src/Stempler/src',
+        ),
+        'Spiral\\Snapshots\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Snapshots/src',
+        ),
+        'Spiral\\Session\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Session/src',
+        ),
+        'Spiral\\Serializer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Serializer/src',
+        ),
+        'Spiral\\SendIt\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/SendIt/src',
+        ),
+        'Spiral\\Security\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Security/src',
+        ),
+        'Spiral\\Scaffolder\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Scaffolder/src',
+        ),
+        'Spiral\\Router\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/AnnotatedRoutes/src',
+            1 => __DIR__ . '/..' . '/spiral/framework/src/Router/src',
+        ),
+        'Spiral\\RoadRunner\\GRPC\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/roadrunner-grpc/src',
+        ),
+        'Spiral\\RoadRunner\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/roadrunner-worker/src',
+        ),
+        'Spiral\\Reactor\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Reactor/src',
+        ),
+        'Spiral\\Queue\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Queue/src',
+        ),
+        'Spiral\\Prototype\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Prototype/src',
+        ),
+        'Spiral\\Pagination\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Pagination/src',
+        ),
+        'Spiral\\Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Bridge/Monolog/src',
+        ),
+        'Spiral\\Models\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Models/src',
+        ),
+        'Spiral\\Mailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Mailer/src',
+        ),
+        'Spiral\\Logger\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Logger/src',
+        ),
+        'Spiral\\Interceptors\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Interceptors/src',
+        ),
+        'Spiral\\Http\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Http/src',
+        ),
+        'Spiral\\Goridge\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/goridge/src',
+        ),
+        'Spiral\\Filters\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Filters/src',
+        ),
+        'Spiral\\Files\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Files/src',
+        ),
+        'Spiral\\Exceptions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Exceptions/src',
+        ),
+        'Spiral\\Events\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Events/src',
+        ),
+        'Spiral\\Encrypter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Encrypter/src',
+        ),
+        'Spiral\\DotEnv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Bridge/Dotenv/src',
+        ),
+        'Spiral\\Distribution\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Distribution/src',
+        ),
+        'Spiral\\Debug\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Debug/src',
+        ),
+        'Spiral\\Csrf\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Csrf/src',
+        ),
+        'Spiral\\Core\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Core/src',
+            1 => __DIR__ . '/..' . '/spiral/framework/src/Hmvc/src',
+        ),
+        'Spiral\\Cookies\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Cookies/src',
+        ),
+        'Spiral\\Console\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Console/src',
+        ),
+        'Spiral\\Config\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Config/src',
+        ),
+        'Spiral\\Composer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/composer-publish-plugin/src',
+        ),
+        'Spiral\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Cache/src',
+        ),
+        'Spiral\\Broadcasting\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Broadcasting/src',
+        ),
+        'Spiral\\Boot\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Boot/src',
+        ),
+        'Spiral\\Auth\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Auth/src',
+            1 => __DIR__ . '/..' . '/spiral/framework/src/AuthHttp/src',
+        ),
+        'Spiral\\Attributes\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/attributes/src',
+        ),
+        'Spiral\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/framework/src/Framework',
+        ),
+        'Psr\\SimpleCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/src',
+        ),
+        'Psr\\Http\\Server\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-server-handler/src',
+            1 => __DIR__ . '/..' . '/psr/http-server-middleware/src',
+        ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Psr\\EventDispatcher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/event-dispatcher/src',
+        ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Psr\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/cache/src',
+        ),
+        'PhpParser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'PhpOption\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'League\\MimeTypeDetection\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/mime-type-detection/src',
+        ),
+        'League\\Flysystem\\Local\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/flysystem-local',
+        ),
+        'League\\Flysystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/flysystem/src',
+        ),
+        'Laminas\\Diactoros\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laminas/laminas-diactoros/src',
+        ),
+        'GrahamCampbell\\ResultType\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/graham-campbell/result-type/src',
+        ),
+        'Google\\Type\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/common-protos/src/Type',
+        ),
+        'Google\\Rpc\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/common-protos/src/Rpc',
+        ),
+        'Google\\Protobuf\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/protobuf/src/Google/Protobuf',
+        ),
+        'Google\\Iam\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/common-protos/src/Iam',
+        ),
+        'Google\\Cloud\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/common-protos/src/Cloud',
+        ),
+        'Google\\Api\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/common-protos/src/Api',
+        ),
+        'GPBMetadata\\Google\\Type\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/common-protos/metadata/Type',
+        ),
+        'GPBMetadata\\Google\\Rpc\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/common-protos/metadata/Rpc',
+        ),
+        'GPBMetadata\\Google\\Protobuf\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/protobuf/src/GPBMetadata/Google/Protobuf',
+        ),
+        'GPBMetadata\\Google\\Logging\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/common-protos/metadata/Logging',
+        ),
+        'GPBMetadata\\Google\\Iam\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/common-protos/metadata/Iam',
+        ),
+        'GPBMetadata\\Google\\Cloud\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/common-protos/metadata/Cloud',
+        ),
+        'GPBMetadata\\Google\\Api\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/common-protos/metadata/Api',
+        ),
+        'Egulias\\EmailValidator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/egulias/email-validator/src',
+        ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
+        ),
+        'Doctrine\\Inflector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
+        ),
+        'Doctrine\\Common\\Lexer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/lexer/src',
+        ),
+        'Defuse\\Crypto\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/defuse/php-encryption/src',
+        ),
+        'DeepCopy\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'Codedungeon\\PHPCliColors\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codedungeon/php-cli-colors/src',
+        ),
+        'Cocur\\Slugify\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cocur/slugify/src',
+        ),
+        'Barsam\\ValidationSpiral\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static $classMap = array (
+        'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Nette\\ArgumentOutOfRangeException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
+        'Nette\\DeprecatedException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
+        'Nette\\DirectoryNotFoundException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
+        'Nette\\FileNotFoundException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
+        'Nette\\HtmlStringable' => __DIR__ . '/..' . '/nette/utils/src/HtmlStringable.php',
+        'Nette\\IOException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
+        'Nette\\InvalidArgumentException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
+        'Nette\\InvalidStateException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
+        'Nette\\Iterators\\CachingIterator' => __DIR__ . '/..' . '/nette/utils/src/Iterators/CachingIterator.php',
+        'Nette\\Iterators\\Mapper' => __DIR__ . '/..' . '/nette/utils/src/Iterators/Mapper.php',
+        'Nette\\Localization\\ITranslator' => __DIR__ . '/..' . '/nette/utils/src/compatibility.php',
+        'Nette\\Localization\\Translator' => __DIR__ . '/..' . '/nette/utils/src/Translator.php',
+        'Nette\\MemberAccessException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
+        'Nette\\NotImplementedException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
+        'Nette\\NotSupportedException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
+        'Nette\\OutOfRangeException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
+        'Nette\\PhpGenerator\\Attribute' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Attribute.php',
+        'Nette\\PhpGenerator\\ClassLike' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/ClassLike.php',
+        'Nette\\PhpGenerator\\ClassManipulator' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/ClassManipulator.php',
+        'Nette\\PhpGenerator\\ClassType' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/ClassType.php',
+        'Nette\\PhpGenerator\\Closure' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Closure.php',
+        'Nette\\PhpGenerator\\Constant' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Constant.php',
+        'Nette\\PhpGenerator\\Dumper' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Dumper.php',
+        'Nette\\PhpGenerator\\EnumCase' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/EnumCase.php',
+        'Nette\\PhpGenerator\\EnumType' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/EnumType.php',
+        'Nette\\PhpGenerator\\Extractor' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Extractor.php',
+        'Nette\\PhpGenerator\\Factory' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Factory.php',
+        'Nette\\PhpGenerator\\GlobalFunction' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/GlobalFunction.php',
+        'Nette\\PhpGenerator\\Helpers' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Helpers.php',
+        'Nette\\PhpGenerator\\InterfaceType' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/InterfaceType.php',
+        'Nette\\PhpGenerator\\Literal' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Literal.php',
+        'Nette\\PhpGenerator\\Method' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Method.php',
+        'Nette\\PhpGenerator\\Parameter' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Parameter.php',
+        'Nette\\PhpGenerator\\PhpFile' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/PhpFile.php',
+        'Nette\\PhpGenerator\\PhpLiteral' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/PhpLiteral.php',
+        'Nette\\PhpGenerator\\PhpNamespace' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/PhpNamespace.php',
+        'Nette\\PhpGenerator\\Printer' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Printer.php',
+        'Nette\\PhpGenerator\\PromotedParameter' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/PromotedParameter.php',
+        'Nette\\PhpGenerator\\Property' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Property.php',
+        'Nette\\PhpGenerator\\PsrPrinter' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/PsrPrinter.php',
+        'Nette\\PhpGenerator\\TraitType' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/TraitType.php',
+        'Nette\\PhpGenerator\\TraitUse' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/TraitUse.php',
+        'Nette\\PhpGenerator\\Traits\\AttributeAware' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Traits/AttributeAware.php',
+        'Nette\\PhpGenerator\\Traits\\CommentAware' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Traits/CommentAware.php',
+        'Nette\\PhpGenerator\\Traits\\ConstantsAware' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Traits/ConstantsAware.php',
+        'Nette\\PhpGenerator\\Traits\\FunctionLike' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Traits/FunctionLike.php',
+        'Nette\\PhpGenerator\\Traits\\MethodsAware' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Traits/MethodsAware.php',
+        'Nette\\PhpGenerator\\Traits\\NameAware' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Traits/NameAware.php',
+        'Nette\\PhpGenerator\\Traits\\PropertiesAware' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Traits/PropertiesAware.php',
+        'Nette\\PhpGenerator\\Traits\\TraitsAware' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Traits/TraitsAware.php',
+        'Nette\\PhpGenerator\\Traits\\VisibilityAware' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Traits/VisibilityAware.php',
+        'Nette\\PhpGenerator\\Type' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Type.php',
+        'Nette\\SmartObject' => __DIR__ . '/..' . '/nette/utils/src/SmartObject.php',
+        'Nette\\StaticClass' => __DIR__ . '/..' . '/nette/utils/src/StaticClass.php',
+        'Nette\\UnexpectedValueException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
+        'Nette\\Utils\\ArrayHash' => __DIR__ . '/..' . '/nette/utils/src/Utils/ArrayHash.php',
+        'Nette\\Utils\\ArrayList' => __DIR__ . '/..' . '/nette/utils/src/Utils/ArrayList.php',
+        'Nette\\Utils\\Arrays' => __DIR__ . '/..' . '/nette/utils/src/Utils/Arrays.php',
+        'Nette\\Utils\\AssertionException' => __DIR__ . '/..' . '/nette/utils/src/Utils/exceptions.php',
+        'Nette\\Utils\\Callback' => __DIR__ . '/..' . '/nette/utils/src/Utils/Callback.php',
+        'Nette\\Utils\\DateTime' => __DIR__ . '/..' . '/nette/utils/src/Utils/DateTime.php',
+        'Nette\\Utils\\FileInfo' => __DIR__ . '/..' . '/nette/utils/src/Utils/FileInfo.php',
+        'Nette\\Utils\\FileSystem' => __DIR__ . '/..' . '/nette/utils/src/Utils/FileSystem.php',
+        'Nette\\Utils\\Finder' => __DIR__ . '/..' . '/nette/utils/src/Utils/Finder.php',
+        'Nette\\Utils\\Floats' => __DIR__ . '/..' . '/nette/utils/src/Utils/Floats.php',
+        'Nette\\Utils\\Helpers' => __DIR__ . '/..' . '/nette/utils/src/Utils/Helpers.php',
+        'Nette\\Utils\\Html' => __DIR__ . '/..' . '/nette/utils/src/Utils/Html.php',
+        'Nette\\Utils\\IHtmlString' => __DIR__ . '/..' . '/nette/utils/src/compatibility.php',
+        'Nette\\Utils\\Image' => __DIR__ . '/..' . '/nette/utils/src/Utils/Image.php',
+        'Nette\\Utils\\ImageColor' => __DIR__ . '/..' . '/nette/utils/src/Utils/ImageColor.php',
+        'Nette\\Utils\\ImageException' => __DIR__ . '/..' . '/nette/utils/src/Utils/exceptions.php',
+        'Nette\\Utils\\ImageType' => __DIR__ . '/..' . '/nette/utils/src/Utils/ImageType.php',
+        'Nette\\Utils\\Iterables' => __DIR__ . '/..' . '/nette/utils/src/Utils/Iterables.php',
+        'Nette\\Utils\\Json' => __DIR__ . '/..' . '/nette/utils/src/Utils/Json.php',
+        'Nette\\Utils\\JsonException' => __DIR__ . '/..' . '/nette/utils/src/Utils/exceptions.php',
+        'Nette\\Utils\\ObjectHelpers' => __DIR__ . '/..' . '/nette/utils/src/Utils/ObjectHelpers.php',
+        'Nette\\Utils\\Paginator' => __DIR__ . '/..' . '/nette/utils/src/Utils/Paginator.php',
+        'Nette\\Utils\\Random' => __DIR__ . '/..' . '/nette/utils/src/Utils/Random.php',
+        'Nette\\Utils\\Reflection' => __DIR__ . '/..' . '/nette/utils/src/Utils/Reflection.php',
+        'Nette\\Utils\\ReflectionMethod' => __DIR__ . '/..' . '/nette/utils/src/Utils/ReflectionMethod.php',
+        'Nette\\Utils\\RegexpException' => __DIR__ . '/..' . '/nette/utils/src/Utils/exceptions.php',
+        'Nette\\Utils\\Strings' => __DIR__ . '/..' . '/nette/utils/src/Utils/Strings.php',
+        'Nette\\Utils\\Type' => __DIR__ . '/..' . '/nette/utils/src/Utils/Type.php',
+        'Nette\\Utils\\UnknownImageFileException' => __DIR__ . '/..' . '/nette/utils/src/Utils/exceptions.php',
+        'Nette\\Utils\\Validators' => __DIR__ . '/..' . '/nette/utils/src/Utils/Validators.php',
+        'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
+        'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
+        'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+        'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
+        'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit04ee5e35bddbd768479a8a7538e1c35e::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit04ee5e35bddbd768479a8a7538e1c35e::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit04ee5e35bddbd768479a8a7538e1c35e::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit85da183e2d50176ae217fe5a139f1c54::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit85da183e2d50176ae217fe5a139f1c54::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit85da183e2d50176ae217fe5a139f1c54::$classMap;
 
         }, null, ClassLoader::class);
     }

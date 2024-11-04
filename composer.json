@@ -1,5 +1,26 @@
 {
+    "name": "barsam/validation-spiral",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Barsam\\ValidationSpiral\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kaveh1999nazari",
+            "email": "kaveh1999nazari@gmail.com"
+        }
+    ],
     "require": {
-        "kaveh/validator-interceptor": "^1.0"
+        "spiral/framework": "^3.14",
+        "spiral/validator": "^1.5",
+        "google/common-protos": "^4.8",
+        "spiral/roadrunner-grpc": "^3.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "spiral/composer-publish-plugin": true
+        }
     }
 }

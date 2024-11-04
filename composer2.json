@@ -1,0 +1,14 @@
+{
+    "require": {
+        "kaveh/validator-interceptor": "@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/home/kaveh/Desktop/ValidatorInterceptor",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
+}
